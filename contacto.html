@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Movil Multimedia</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- bxSlider CSS file -->
+	<link href="libraries/css/owl.carousel.css" rel="stylesheet" />
+	<link href="libraries/css/owl.theme.css" rel="stylesheet" />
+	<!-- Main CSS file -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header>
+		<div class="top-header">
+			<div class="max-content">
+				<a href="index.html"><h1 class="logo">Movil Multimedia</h1></a>	
+				<nav role="navigation">
+				<div class="menu-toggle"><span>Menu</span></div>
+				<ul class="menu">
+					<li><a href="index.html"><span>Inicio</span></a></li>
+					<li><a href="index.html#recent-works"><span>Trabajos recientes</span></a></li>
+					<li><a href="index.html#our-clients"><span>Nuestros clientes</span></a></li>
+					<li><a href="quienes-somos.html"><span>Quienes Somos</span></a></li>
+					<li><a href="servicios.html"><span>Servicios</span></a></li>
+					<li><a href="contacto.html"><span>Contáctenos</span></a></li>
+				</ul>
+				</nav>
+			</div> <!--END max-content-->
+		</div> <!--End top-header -->
+		<div class="capa-anti-eventos" onclick="this.style.display='none'"></div>
+			<div id="map" class="item-header">
+			</div>
+	</header>
+
+	<section class="contact-us">
+		<div class="max-content">
+		<h2 class="sub-title">Información de contacto</h2>
+		<p>Por favor, no dude en contactarse con nosotros, que con todo gusto atenderemos su inquietud y sin compromiso alguno.</p>
+		<div class="contact">
+			<img src="img/Iconos/location.svg" alt="Icono para ilustrar la seccion de calidad" class="icon">
+			<h3>Dirección</h3>
+			<p>Paseo Colón, Costa Rica.</p>
+		</div>
+		<div class="contact">
+			<img src="img/Iconos/phone.svg" alt="Icono para ilustrar la seccion de calidad" class="icon">
+			<h3>Teléfono</h3>
+			<p>(+506)2542-1400</p>
+		</div>
+		<div class="contact">
+			<img src="img/Iconos/email.svg" alt="Icono para ilustrar la seccion de calidad" class="icon">
+			<h3>E-mail</h3>
+			<p>info@movilmultimediasa.com</p>
+		</div>
+	</div>
+	</section> <!-- End contact-us -->
+
+	<section class="form" name="form">
+		<div class="max-content">
+		<h2 class="sub-title">Trabajemos Juntos</h2>
+		<form id="form" class="topBefore" action="send.php" methods="post">
+			<input id="name" type="text" placeholder="Nombre" name="name" required>
+			<input id="email" type="email" placeholder="E-mail" name"email" required>
+			<textarea id="message" type="text" placeholder="Mensaje" name"message" required></textarea>
+			<input id="submit" type="submit" value="Enviar">
+		</form>
+	</div>
+	</section>
+
+	<footer>
+		<p>Móvil MultimediaS.A © 2016</p>
+		<a target="_blank" class="social-icon" href="https://www.facebook.com/movil.multimedia"><img src="img/Iconos/facebook.svg" alt="icono de facebook"></a>
+		<a target="_blank" class="social-icon" href="https://www.twitter.com"><img src="img/Iconos/twitter.svg" alt="icono de facebook"></a>
+	</footer>
+
+<!-- jQuery library (served from Google) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="libraries/js/owl.carousel.min.js"></script>
+<!-- Main script -->
+<script type="text/javascript" src="js/script.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvbY5Lwz1ds-SnnTRN8ge4PdmLvjVZ6C4&signed_in=true&callback=initMap" async defer>
+</script>
+</body>
+</html>
